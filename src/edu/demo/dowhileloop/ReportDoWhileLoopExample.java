@@ -11,10 +11,12 @@ public class ReportDoWhileLoopExample {
 	}
 	
 	public void showInsideLoopReportTwo(int counter, int tempSummary) {
-		String valueText = "value =";
+		String valueText = "value";
+		char leftSign = '[';
+		char rightSign = ']';
 		String sumText = "sum =";
 		String space = " ";
-		String output = valueText + space + counter + space + sumText + space + tempSummary;
+		String output = valueText + leftSign + counter + rightSign + space + sumText + space + tempSummary;
 		System.out.println(output);
 	}
 	
