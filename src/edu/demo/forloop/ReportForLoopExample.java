@@ -1,4 +1,4 @@
-package forloop.edu.demo;
+package edu.demo.forloop;
 
 public class ReportForLoopExample {
 	
